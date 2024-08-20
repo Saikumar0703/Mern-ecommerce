@@ -1,25 +1,8 @@
-# Mern-ecommerce
+# React + Vite
 
-# Scaffolding Mern-ecommerce Vite Project
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
---> npm create vite@latest
+Currently, two official plugins are available:
 
---> npx degit user/project#main npx degit user/project#main my-project
-
-# choose framework
-
-# Choose React
-
-# Choose Language (Typescript , Javascript)
-
---> cd Mern-ecommerce
-
---> npm i
-
---> npm run dev
-
-Notes:-
-
-> git config --global user.name ""
->
-> > git config --global user.email ""
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
