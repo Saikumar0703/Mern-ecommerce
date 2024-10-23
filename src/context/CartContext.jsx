@@ -10,7 +10,7 @@ setCartItems([...cartItems, product]);
 }
 
 return(
-    <CartContext.Provider value={{cartItems,addToCart}}>
+    <CartContext.Provider value={{ cartItems, addToCart }}>
         {children}
     </CartContext.Provider>
 );
